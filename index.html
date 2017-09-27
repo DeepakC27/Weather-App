@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.jpg' />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="css/metroUI/metro.min.css" rel="stylesheet">
+    <link href="css/metroUI/metro-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+    <body class="bg-white">
+
+        <div class="tile-area fixed-top">
+            <h2 class="tile-area-title" style="left:20px;">Weather App</h2>
+        </div>
+
+            <div class="container-fluid" id="location_container">
+                <div class="row" id="loc_detec_container">
+                    <div class="col-sm-6 col-xs-12" id="input_loc">
+                        <input type="text" id="entered_loc" placeholder="Enter the location" autocomplete="off">
+                        <span class="icon mif-location mif-2x img-circle"></span>
+                    </div>
+                    <div class="col-sm-6 col-xs-12" id="current_loc">
+                        <button class="image-button no-border" id="curr_loc_btn">
+                            <span class="icon mif-location mif-3x img-circle"></span>
+                            <h4>Auto Detect</h4>
+                        </button>                        
+                    </div>
+                </div>
+            </div>               
+            <div data-role="preloader" id="data_loader" data-type="cycle" data-style="color" style="display: none;"></div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDNI8CTm-XwANpgohs6lthtxELyiatXlk"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script src="js/metro.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/fetch_city.js"></script>
+    </body>
+</html>

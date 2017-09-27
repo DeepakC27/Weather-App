@@ -1,0 +1,85 @@
+.tile-area-controls {
+	position: fixed; right: 20px; top: 40px;
+}
+
+.tile-area{
+    height: 100px;
+}
+
+#loc_detec_container, #main_heading{
+    text-align: center; 
+    width: 100%;
+}
+
+input, .image-button, #curr_loc_btn span, #usr_icon{
+    background: transparent;
+}
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-position: fixed-top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden; overflow-x:hidden;
+}
+
+input::placeholder {
+    color: darkgrey;
+    opacity: 0.8;
+}
+
+.tile-area-title, .icon, h4, .sub-header, .image-button h4{
+    color:#DCDCDC;
+}
+
+input{
+    border: none; border-bottom: 2px solid grey; font-size: 1em; 
+    color: #DCDCDC;
+    padding-top: 5px; outline: none;
+}
+
+#loc_detec_container{
+    position: absolute;  top:35%;
+}
+
+#input_loc{
+    max-height: 80px;
+}
+
+#input_loc input{
+    max-width: 220px;
+}
+
+.icon.mif-location.mif-3x{
+    height: 40px;  width: 40px;  font-size: 20px;  padding-top:5px;
+}
+
+.image-button{
+    padding-top: 5px;
+}
+
+#data_loader{
+    text-align: center; top:40%; left:44%;
+}
+
+#curr_loc_btn span{
+     margin-top: 10px; font-size: 30px;
+}
+
+
+/*REndering page*/
+#web_heading{
+    left:10px; font-size: 30px;
+}
+
+#usr_icon{
+    font-size: 1.5em;
+}
+
+#main_heading{
+    height: 10%:   
+}
+
+#carousel_content div{
+    text-align: left; margin:0 auto; width: 100%;
+}
