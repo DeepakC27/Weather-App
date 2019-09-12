@@ -7,9 +7,6 @@ Weather-App is a website displaying weather conditions using openweathermap API.
 ### Built with
 Metro UI, Material CSS & Bootstrap
 
-### Running
-https://weatherbox.000webhostapp.com
-
 
 ### Acknowledgment
 -Thnks to Jon Skinner for providing such an awesome editor (Sublime Text).
