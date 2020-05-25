@@ -1,4 +1,4 @@
-var openWeatherAppId = 'ae8d13ba00bca30307938e041006abbc',
+var openWeatherAppId = '********',
 	openWeatherUrl = 'http://api.openweathermap.org/data/2.5/forecast'
 
 
